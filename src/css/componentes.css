@@ -1,0 +1,106 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+a{
+    text-decoration: none;
+}
+/* globales */
+header{
+    background-color: #ED1D24;
+    max-height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+img{
+    max-width: 100%;
+}
+.principal{
+    background-image: url(../assets/fondo/34053-comic.jpg);
+
+}
+/* Utilidades */
+.color-rojo{
+    color:#ED1D24;
+    text-shadow: 5px 0px 2px rgba(0,0,0,0.8);
+}
+.color-blanco{
+    color: aliceblue;
+}
+.tamaño-20{
+    max-width: 19rem;
+    max-height: 9rem;
+}
+.tamaño-30{
+    max-width: 30rem;
+    max-height: 40rem;
+}
+.ancho-4{
+height: 4rem;;
+}
+
+.tamaño-de-fuente{
+    font-size: 1.5rem;
+}
+
+.fuente-maker{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+}
+.fuente-patrick{
+    font-family: 'Caveat', cursive;
+}
+/* Informacion del Personaje */
+.contenedor-de-personaje{
+    background-color: rgba(0,0,0,0.7);
+}
+
+.card-personaje{
+    margin: 0 auto;
+    padding: 2rem 15rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem;
+}
+.Informacion-de-personaje{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.informacio-extra{
+    display: flex;
+    justify-content: space-evenly;
+}
+.informacio-extra a{
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+    transition: .3s;
+}
+.informacio-extra a:hover{
+    text-shadow: 2px 0px 11px #fff;
+    color: white;
+}
+/* comics */
+
+.contenedor-de-comics{
+    background-color: aliceblue;
+    padding: 5rem 10rem 5rem 14rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax( 20rem, 1fr));
+    row-gap: 5rem;
+}
+

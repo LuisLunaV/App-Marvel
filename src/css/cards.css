@@ -1,0 +1,31 @@
+
+.card {
+  cursor: pointer;
+  width: 19.5rem;
+  box-shadow: 9px 5px 6px -3px rgba(0, 0, 0, 0.56);
+  transition: .5s;
+
+}
+.card:hover{
+  transform: scale(1.05);
+}
+.card-title{
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.img-comic {
+    height: 25rem;    
+  }
+
+/* 
+.img-comic:hover{
+    transform: rotateY(180deg);
+} */
+
